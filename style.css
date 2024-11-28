@@ -1,0 +1,52 @@
+*{
+
+}
+body{
+    color: #F5FCFF;
+}
+img{
+    width: 100px;
+
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 2em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    
+}
+.Home{
+    color:indigo;
+}
+.button button{
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+button{
+    color: indigo;
+    border: 1px solid indigo;
+    background-color:#F5FCFF;
+}
+button :hover{
+    background-color: indigo;
+    border: #F5FCFF;
+}
+@media only screen and (max-width:690px){
+    header{
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: center;
+    }
+}
